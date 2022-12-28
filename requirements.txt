@@ -1,0 +1,6 @@
+flake8
+ipykernel
+mypy
+osxmetadata
+pep8-naming
+pre-commit
