@@ -9,6 +9,7 @@ repos:
   -  id: check-merge-conflict  # checks for files that contain merge conflict strings
   -  id: end-of-file-fixer
   -  id: check-added-large-files
+     args: ['--maxkb=5120']
   -  id: trailing-whitespace
   -  id: detect-private-key
   -  id: check-ast  # checks whether the files parse as valid python
