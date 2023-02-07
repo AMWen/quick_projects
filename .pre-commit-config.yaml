@@ -61,8 +61,6 @@ repos:
       - "--ignore-missing-imports"
       - "--show-error-codes"
       - "--warn-unused-ignores"
-      # - "offline/"
-      # pass_filenames: false
 - repo: https://github.com/asottile/dead
   rev: v1.5.0
   hooks:
